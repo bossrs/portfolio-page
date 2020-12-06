@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+body{
+        margin: 0;
+}
+#navbar {
+background-color: rgb(247, 105, 54);
+display: flex;
+justify-content: flex-end;
+position: fixed;
+width: 100%;
+top: 0;
+
+
+}
+
+
+#navbar ul{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+    
+}
+#navbar li {
+    display: inline-block;
+    padding: 20px;
+  
+}
+#navbar a{
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+#navbar li:hover{
+ 
+    background-color:chocolate;
+
+  
+    
+}
+#welcome-section{
+    background-color: black;
+  
+height: 500px;
+    background: url(images/web\ developer.jpg) no-repeat center scroll  ;
+background-size: cover;
+
+  height: 100vh;
+    
+}
+#welcome-section header{
+    
+position: relative;
+top: 45%;
+left: 0%;
+
+  max-width: 100%;
+  margin:0  auto;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    width: 400px;
+text-align: center;
+
+
+}
+#projects{
+background-color: pink;
+margin-top:-20px ;
+text-align: center;
+padding: 5px;
+height: 400px;
+}
+.project-tile{
+ display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin:0 40px;
+
+
+}
+.project-tile  .card{
+
+width: 300px;
+box-shadow: 0 8px 8px black;
+border-radius: 5px;
+padding: 5px;
+background-color: white;
+height: 300px;
+
+}
+.project-tile img{
+    width: 100%;
+}
+.project-tile h3{
+    text-align: center;
+}
+.contact-me{
+   display: flex;
+   justify-content: center;
+   
+   background-color:#ccc;
+   
+}
+.contact{
+    font-size: 50px;
+   width: 200px;
+  
+   height: 200px;
+   margin-right:10px;
+   text-align: center;
+   padding: 30px;
+   line-height: 0;
+ 
+}
+.icon-cog{
+    color: black;
+}
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+
+#projects{
+    
+       background-color: yellowgreen;
+      
+     
+        margin-top:-20px ;
+        text-align: center;
+        padding: 5px;
+        height: auto;
+        }
+
+        .project-tile{
+            display: block;
+           flex-direction: row;
+           justify-content: space-between;
+           margin:0 40px;
+         
+           
+           
+           }
+
+           #projects a{
+               color: black;
+           }
+           .project-tile  .card{
+          
+           max-width: 100%;
+margin: 30px auto;
+           width: 300px;
+           box-shadow: 0 8px 8px black;
+           border-radius: 5px;
+           padding: 5px;
+           background-color: white;
+           height: auto;
+           
+           }
+           .contact-me{
+            display: block;
+            justify-content: center;
+            
+            background-color:#ccc;
+            
+         }
+
+
+         .contact{
+            font-size: 60px;
+           width: 200px;
+          
+           height: 200px;
+      margin: 0 auto;
+           text-align: center;
+           padding: 30px;
+           line-height: 0;
+         
+        }
+     
+        #navbar li {
+            display: inline-block;
+            padding: 20px;
+          
+            
+          
+        }
+
+#navbar ul{
+    margin: 0 auto;
+    padding:0;
+    list-style-type: none;
+    
+    
+}
+        #navbar a{
+            color: black;
+            display: block;
+            text-decoration: none;
+        
+        }
+}
